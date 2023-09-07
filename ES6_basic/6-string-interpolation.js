@@ -13,5 +13,5 @@ export default function getSanFranciscoDescription() {
     part5: '.',
   };
 
-  return `${sentance.part1 + year + sentance.part2 + budget.income + sentance.part3 + budget.gdp + sentance.part4 + budget.capita + sentance.part5}`;
+  return `${sentance.part1}${year}${sentance.part2}${budget.income}${sentance.part3}${budget.gdp}${sentance.part4}${budget.capita}${sentance.part5}`;
 }
