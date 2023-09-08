@@ -1,6 +1,6 @@
 import ClassRoom from './0-classroom';
 
-function initializeRooms () {
+export default function initializeRooms () {
     const classroomArray = [];
     const maxStudents = [19, 20, 34];
 
