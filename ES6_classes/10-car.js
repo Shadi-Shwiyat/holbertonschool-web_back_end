@@ -53,7 +53,7 @@ export default class Car {
   }
 
   cloneCar() {
-    const { constructor } = this;
+    const { constructor } = Object.getPrototypeOf(this);
     return new constructor(this._brand, this._motor, this._color);
   }
 }
