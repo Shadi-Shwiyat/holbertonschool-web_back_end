@@ -2,9 +2,13 @@ import Car from "./10-car.js";
 
 class TestCar extends Car {}
 
-test("Car cloneCar check for species", () => {
-  const opel = new TestCar();
-  const newCar = opel.cloneCar();
+const tc1 = new TestCar("Nissan", "Turbo", "Pink");
+const tc2 = tc1.cloneCar();
 
-  expect(newCar instanceof TestCar).toBe(true);
-});
+console.log(tc1);
+console.log(tc1 instanceof TestCar);
+
+console.log(tc2);
+console.log(tc2 instanceof TestCar);
+
+console.log(tc1 == tc2);
