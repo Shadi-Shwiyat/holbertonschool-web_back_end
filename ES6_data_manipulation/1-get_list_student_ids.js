@@ -4,7 +4,7 @@ export default function getListStudentIds(studentArray) {
   for (const object of studentArray) {
     for (const key in object) {
       if (key === 'id') {
-        //console.log(object[key]);
+        // console.log(object[key]);
         idArray.push(object[key]);
       }
     }
