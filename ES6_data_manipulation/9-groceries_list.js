@@ -3,7 +3,7 @@ export default function groceriesList() {
 
   groceryMap.set('Apples', 10);
   groceryMap.set('Tomatoes', 10);
-  groceryMap.set('Patsa', 1);
+  groceryMap.set('Pasta', 1);
   groceryMap.set('Rice', 1);
   groceryMap.set('Banana', 5);
 
