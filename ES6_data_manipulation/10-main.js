@@ -5,4 +5,4 @@ const map = groceriesList();
 console.log(map);
 
 updateUniqueItems(map)
-console.log(map.get('Rice'));
+console.log(map.get('Pasta'));
